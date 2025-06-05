@@ -19,13 +19,16 @@ using Capa_Vista_Capacitacion;
 //using Capa_Vista_Evaluacion;
 //using Capa_Vista_GD;
 using Modelo_Vista_AsistenciaYFaltas;
+using Capa_Vista_Seguridad;
 
 namespace Capa_Vista_RRHH
 {
     public partial class MDI_RRHH : Form
     {
         private int childFormNumber = 0;
-        string idUsuario;
+        //string idUsuario;
+
+        string idUsuario = Interfac_V3.UsuarioSesion.GetIdUsuario();
         private Timer timer;
 
         public MDI_RRHH(string idUsuario)
@@ -584,6 +587,14 @@ namespace Capa_Vista_RRHH
         private void facultadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MantenimientoExamen GD = new MantenimientoExamen();
+            GD.MdiParent = this;
+            CentrarFormulario(GD);
+            GD.Show();
+        }
+
+        private void bitacoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_mostrar_bitacora GD = new frm_mostrar_bitacora(idUsuario);
             GD.MdiParent = this;
             CentrarFormulario(GD);
             GD.Show();

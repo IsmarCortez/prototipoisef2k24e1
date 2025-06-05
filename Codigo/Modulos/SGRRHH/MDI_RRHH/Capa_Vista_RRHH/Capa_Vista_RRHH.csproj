@@ -79,6 +79,10 @@
       <HintPath>..\..\ReclutamientoSeleccion\Reclutamiento\Capa_Vista_Reclutamiento\bin\Debug\Capa_Vista_Reclutamiento.dll</HintPath>
     </Reference>
     <Reference Include="Capa_Vista_Reporteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Capa_Vista_Seguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\DemostracionNoventa\proyectois2k25\Codigo\Componentes\Seguridad2_5\Capa_Vista_Seguridad\bin\Debug\Capa_Vista_Seguridad.dll</HintPath>
+    </Reference>
     <Reference Include="Interfac_V3, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\DemostracionNoventa\proyectois2k25\Codigo\Modulos\Menus\ModernGUI_V3\bin\Debug\Interfac_V3.exe</HintPath>
