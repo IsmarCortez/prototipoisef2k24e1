@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Capa_Controlador_Navegador, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Capa_Controlador_Reporteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Capa_Controlador_Seguridad, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="Capa_Vista_Anticipos">
       <HintPath>..\..\Nominas2_5\Anticipos\Capa_Vista_Anticipos\bin\Debug\Capa_Vista_Anticipos.dll</HintPath>
     </Reference>
@@ -43,6 +46,7 @@
     <Reference Include="Capa_Vista_Carrera">
       <HintPath>..\..\DesarrolloCarrera\DesCarrera\Capa_Vista_Carrera\bin\Debug\Capa_Vista_Carrera.dll</HintPath>
     </Reference>
+    <Reference Include="Capa_Vista_Consulta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="Capa_Vista_Evaluacion">
       <HintPath>..\..\EvaluacionDesempenio\Capa_Vista_Evaluacion\bin\Debug\Capa_Vista_Evaluacion.dll</HintPath>
     </Reference>
@@ -58,6 +62,10 @@
     <Reference Include="Capa_Vista_Liquidaciones">
       <HintPath>..\..\Nominas2_5\Liquidaciones_Empleados\Capa_Vista_Liquidaciones\bin\Debug\Capa_Vista_Liquidaciones.dll</HintPath>
     </Reference>
+    <Reference Include="Capa_Vista_Navegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Capa_Vista_Navegador.dll</HintPath>
+    </Reference>
     <Reference Include="Capa_Vista_Nominas">
       <HintPath>..\..\Nominas2_5\Capa_Vista_Nominas\bin\Debug\Capa_Vista_Nominas.dll</HintPath>
     </Reference>
@@ -69,6 +77,11 @@
     </Reference>
     <Reference Include="Capa_Vista_Reclutamiento">
       <HintPath>..\..\ReclutamientoSeleccion\Reclutamiento\Capa_Vista_Reclutamiento\bin\Debug\Capa_Vista_Reclutamiento.dll</HintPath>
+    </Reference>
+    <Reference Include="Capa_Vista_Reporteria, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Interfac_V3, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\DemostracionNoventa\proyectois2k25\Codigo\Modulos\Menus\ModernGUI_V3\bin\Debug\Interfac_V3.exe</HintPath>
     </Reference>
     <Reference Include="Modelo_Vista_AsistenciaYFaltas">
       <HintPath>..\..\Asistencia y Faltas\Modelo_Vista_AsistenciaYFaltas\bin\Debug\Modelo_Vista_AsistenciaYFaltas.dll</HintPath>
@@ -86,6 +99,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MantenimientoExamen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoExamen.Designer.cs">
+      <DependentUpon>MantenimientoExamen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="MDI_RRHH.cs">
       <SubType>Form</SubType>
@@ -96,6 +115,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="MantenimientoExamen.resx">
+      <DependentUpon>MantenimientoExamen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDI_RRHH.resx">
       <DependentUpon>MDI_RRHH.cs</DependentUpon>
     </EmbeddedResource>

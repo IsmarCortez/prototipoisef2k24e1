@@ -580,5 +580,13 @@ namespace Capa_Vista_RRHH
         {
 
         }
+
+        private void facultadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MantenimientoExamen GD = new MantenimientoExamen();
+            GD.MdiParent = this;
+            CentrarFormulario(GD);
+            GD.Show();
+        }
     }
 }
