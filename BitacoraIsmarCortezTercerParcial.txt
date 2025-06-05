@@ -1,0 +1,50 @@
+commit 27b94de33bc67d47041e194253ed17d22ecb8fb5
+Merge: 6b63f30 7e0a605
+Author: Ismar Leonel Cortez Sanchez <icortezs@miumg.edu.gt>
+Date:   Thu Jun 5 09:13:43 2025 -0600
+
+    Merge pull request #3 from IsmarCortez/RamaSeguridad090121506
+    
+    Seguridad Bitacora
+
+commit 7e0a60538f45fa60ae9f6cc976eb1b060d14f628
+Author: IsmarCortez <icortezs@miumg.edu.gt>
+Date:   Thu Jun 5 09:13:08 2025 -0600
+
+    Seguridad Bitacora
+
+commit 6b63f30fb1563bcf9ec4f8851e9345cc716ed009
+Merge: 38adc47 85a62b2
+Author: Ismar Leonel Cortez Sanchez <icortezs@miumg.edu.gt>
+Date:   Thu Jun 5 09:07:34 2025 -0600
+
+    Merge pull request #2 from IsmarCortez/RamaMantenimientos090121506
+    
+    Mantenimiento Facultad
+
+commit 85a62b2c6ad1a3c21cde67389092f55b36388c70
+Author: IsmarCortez <icortezs@miumg.edu.gt>
+Date:   Thu Jun 5 09:06:57 2025 -0600
+
+    Mantenimiento Facultad
+
+commit 38adc479c803db7affae7048852ce61d274dc031
+Merge: 89ec7fa 9b10b4c
+Author: Ismar Leonel Cortez Sanchez <icortezs@miumg.edu.gt>
+Date:   Thu Jun 5 08:45:24 2025 -0600
+
+    Merge pull request #1 from IsmarCortez/RamaContenedor090121506
+    
+    Contenedor
+
+commit 9b10b4c41d85e4eaa0d4874b8529e90bcc6b5ba5
+Author: IsmarCortez <icortezs@miumg.edu.gt>
+Date:   Thu Jun 5 08:44:41 2025 -0600
+
+    Contenedor
+
+commit 89ec7fa0bfd385040d1d98f68c7e3543274e9a41
+Author: IsmarCortez <icortezs@miumg.edu.gt>
+Date:   Thu Jun 5 08:23:32 2025 -0600
+
+    Inicial
